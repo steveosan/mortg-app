@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mortgage Lending</title>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="fee.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+</div>
+
+<div id = "Fee-Calculator-Container">
+
+
+    <h1> Mortgage - Lending</h1>
+    
+    <fieldset>
+        <legend>User Input</legend>
+        <form >
+            <label for="salary">What is your current salary?</label><br>
+            <input type="number" id="salary" name="salary" value="0"><br>
+            <br>
+            <label for="credit">What is your current credit score?</label><br>
+            <input type="number" id="credit" name="credit" value="0"><br>
+            <br>
+
+        <div id="buttonContainer">
+            <label for="job">Months at job?</label><br>
+            <input type="number" id="job" name="job" placeholder="0">
+            <br><br>
+            <input type="submit" value="Submit" id="submit2" onclick="calculateJobs()">
+        </div>
+
+        <div id="approved">
+            <p>Loan Approved</p>
+        </div>
+
+        <div id="denied">
+            <p>We'er sorry- We can't lend to you at this time.</p> 
+       
+        </div>
+ 
+        <input type="submit" value="Submit" id="submit1">
+        </form> 
+    </fieldset>
+     </div>
+     <div id="alertApproved">
+         <h1>You're Approved!!</h1>
+
+     </div>
+</body>
+</html>
+
